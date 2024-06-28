@@ -293,7 +293,7 @@ Using \eqref{eq:rad2} we can rewrite \eqref{eq:rad1} as \eqref{eq:rad3} and make
 	-\frac{\hbar^2}{2\mu}\frac{d^2 u(r)}{dr^2} - \frac{e^2}{4\pi\varepsilon_0 r}u(r) - Eu(r) + \frac{\hbar^2}{2\mu}l(l+1) \frac{u(r)}{r^2} &= 0 \\ % x -\frac{\hbar^2}{2\mu r}
 	-\frac{\hbar^2}{2\mu}\frac{d^2 u(r)}{dr^2} + u(r) \left(-\frac{e^2}{4\pi\varepsilon_0 r} + \frac{\hbar^2}{2\mu}\frac{l(l+1)}{r^2}\right) &= Eu(r) \\ %factorize by u(r) 
 	\label{eq:rad3}
-	-\frac{\hbar^2}{2\mu E}\frac{d^2 u(r)}{dr^2} + u(r) \left(-\frac{e^2}{4\pi\varepsilon_0 r E} + \frac{\hbar^2}{2\mu E}\frac{l(l+1)}{r^2}\right) &= u(r) \\ %codeide by E
+	-\frac{\hbar^2}{2\mu E}\frac{d^2 u(r)}{dr^2} + u(r) \left(-\frac{e^2}{4\pi\varepsilon_0 r E} + \frac{\hbar^2}{2\mu E}\frac{l(l+1)}{r^2}\right) &= u(r) 
 \end{align}</div>
 
 
@@ -318,7 +318,7 @@ It is time for a second change of variable, we will use \\( \rho = 2kr \\), now 
 
 As we still don't know \\( w(\rho) \\), we will take a look at its asymptotic behavior for small and large values of \\( \rho \\) (\\( \rho \rightarrow +\infty \\)  and \\( \rho \rightarrow 0 \\)).
 
-## Limit at $\rho \rightarrow + \infty$ 
+## Limit at \\( \rho \rightarrow + \infty \\) 
 
 For very large values of $\rho$, only the red term of the parenthesis on the right hand side of \eqref{eq:rad5} does not vanish, we can rewrite.
 
